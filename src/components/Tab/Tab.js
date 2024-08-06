@@ -24,18 +24,19 @@ const Tab = (props) => {
             {console.log(item.img)}
             <div className="tab-content-wrapper">
             <img src={`/images/${item.img}`} alt={"img for key: " + item.key} style={{width:600,height:300}}/>
-            <div className="tab-content" >
-              {item.children}
+              <div className="tab-content" >
+                {item.children}
+                    <div className="button-container">
+                      <a href={currLink}>
+                        <button className="gradient-button">Show More Info</button>
+                      </a>
+                    </div>
               </div>
-              </div>
+            </div>
           </TabPane>
         ))}
       </Tabs>
-      <div className="button-container">
-      <a href={currLink}>
-        <button className="gradient-button">Show More Info</button>
-      </a>
-      </div>
+
     </div>
   );
 };
