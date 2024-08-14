@@ -7,13 +7,16 @@
 /* Tabs wrapper */
 .tabs-wrapper {
     display: flex;
+
     /* justify-content: center; */
+
     margin-bottom: 16px;
 }
 
 /* Tab content wrapper */
 .tab-content-wrapper {
     display: flex;
+
     align-items: center; /* Center items vertically */
     gap: 20px; /* Space between image and text */
     border-radius: 8px; /* Rounded corners for content wrapper */
@@ -21,6 +24,14 @@
     padding: 20px; /* Padding inside content wrapper */
     margin: 20px 0; /* Margin around content wrapper */
 }
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Space between image and text */
+    border-radius: 8px; /* Rounded corners for content wrapper */
+    height: 450px;
+    padding: 20px; /* Padding inside content wrapper */
+    margin: 20px 0; /* Margin around content wrapper */
+}
+
 /* Image styling */
 .tab-content-wrapper img {
     width: 600px; /* Set consistent width */
@@ -32,6 +43,24 @@
 }
 
 
+/* Text content styling */
+.tab-content {
+    font-size: 23px;
+    border-radius: 8px; /* Rounded corners for text content */
+    max-width: 600px; /* Set the maximum width of the text content to match the image width */
+    height: 300px; /* Set the height to match the image height */
+    /*overflow: auto; /* Add scrollbars if the content overflows */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    /*padding: 20px; /* Padding inside text content */
+    box-sizing: border-box; /* Ensure padding is included in the width and height */
+    margin-bottom: auto;
+    background-color: white;
+}
+
+.tab-label {
+    font-size: 26px;
 
 
 /* Text content styling */

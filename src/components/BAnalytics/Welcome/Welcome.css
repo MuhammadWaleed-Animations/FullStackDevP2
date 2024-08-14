@@ -2,6 +2,9 @@
 .welcome-container {
     /* background-image: url('/public/images/welcome.avif'); */
     background-color: #003399;/*dodgerblue; */
+
+    /* background-image: url('/public/images/welcome.avif'); */
+    background-color: #003399;/*dodgerblue; */
     background-size: cover;
     background-position: center;
     padding: 100px 0;
@@ -10,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     /* min-height: 100vh; */
     height: 500px;
   }
@@ -35,7 +39,7 @@
     margin-bottom: 30px;
   }
   
-  
+
   .gradient-buttonn {
     background: linear-gradient(70deg, #275fcd, #003399); /* Dodger blue gradient */
     color: white;
@@ -44,6 +48,15 @@
     width: 250px;
     padding: 12px 24px;
     font-size: 12px;
+
+  .gradient-buttonn {
+    background: linear-gradient(70deg, #275fcd, #003399); /* Dodger blue gradient */
+    color: white;
+    border: none;
+    height: 40px;
+    width: 250px;
+    padding: 12px 24px;
+    font-size: 16px;
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
@@ -67,3 +80,21 @@
 .gradient-buttonn:active {
     transform: scale(0.95);
 }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gradient-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .gradient-button:focus {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .gradient-button:active {
+    transform: scale(0.95);
+  }
+
+
+}
+

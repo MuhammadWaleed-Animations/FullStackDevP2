@@ -5,7 +5,9 @@
     margin-top: 3%;
 }
 
+
 .tab-container h1 {
+
     font-size: 50px;
     font-weight: 600;
 }
@@ -46,8 +48,10 @@
     height: 200px; /* Set consistent height */
     object-fit: cover; /* Ensure image covers area without distortion */
     flex-shrink: 0; /* Prevent image from shrinking */
+
     /*border-radius: 8px; /* Rounded corners for image */
    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for image */
+
 }
 
 /* Text content styling */
@@ -65,10 +69,15 @@
     flex-direction: column;
     justify-content: space-between; /* Ensure the button stays at the bottom */
     height: 100%; /* Make the text content take full height */
+    font-size: 22px !important;
+
 }
 
 /* Button container */
 .button-container {
+    display: flex;
+    justify-content: center; /* Center the button */
+    padding: 16px;
     margin-top: 20px; /* Space above the button */
 }
 
@@ -87,6 +96,7 @@
     text-transform: uppercase; /* Uppercase text */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for button */
     width: 100%; /* Ensure button width matches the content */
+
 }
 
 .gradient-button:hover {

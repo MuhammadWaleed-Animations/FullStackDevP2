@@ -1,7 +1,7 @@
-// src/ContactButton.js
 import React, { useState } from 'react';
 import { Button, Modal, Form, Input } from 'antd';
 import { MailOutlined } from '@ant-design/icons';
+import axios from 'axios';
 import './css/ContactButton.css'; // Import the CSS file
 
 const ContactButton = () => {
@@ -17,6 +17,22 @@ const ContactButton = () => {
 
   const handleCancel = () => {
     setIsModalVisible(false);
+  };
+
+  const handleSubmit = async (values) => {
+    try {
+      const response = await axios.post('http://localhost:5000/send-email', {
+        name: values.name,
+        email: values.email,
+        message: values.message,
+      });
+      console.log('Response:', response.data);
+      handleOk();
+      alert('Message sent successfully!');
+    } catch (error) {
+      console.error('Error sending email:', error);
+      alert('Failed to send message. Please try again later.');
+    }
   };
 
   return (
@@ -38,10 +54,7 @@ const ContactButton = () => {
       >
         <Form
           layout="vertical"
-          onFinish={(values) => {
-            console.log('Form Values:', values);
-            handleOk();
-          }}
+          onFinish={handleSubmit}
         >
           <Form.Item
             name="name"

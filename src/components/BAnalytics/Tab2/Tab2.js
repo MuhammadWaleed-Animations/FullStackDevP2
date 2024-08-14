@@ -19,6 +19,11 @@ const Tab2 = (props) => {
               <div className="tab-content" style={{backgroundColor:"white", height:300}}>
                 <br/><br/><br/>
                 <p style={{fontSize:20, textAlign:"center", color:"black"}}>{item.children}</p>
+
+              <div className="tab-content" style={{backgroundColor:"white", height:300}}>
+                <br/><br/><br/>
+                <p style={{fontSize:20, textAlign:"center", color:"black"}}>{item.children}</p>
+
                 <br/><br/><br/>
               </div>
             </div>
