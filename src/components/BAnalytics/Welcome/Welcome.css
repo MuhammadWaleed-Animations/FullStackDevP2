@@ -1,7 +1,11 @@
 /* WelcomeComponent.css */
 .welcome-container {
+<<<<<<< HEAD
     /* background-image: url('/public/images/welcome.avif'); */
     background-color: #003399;/*dodgerblue; */
+=======
+    background-image: url('/public/images/welcome.avif');
+>>>>>>> origin/Shahzeb
     background-size: cover;
     background-position: center;
     padding: 100px 0;
@@ -10,8 +14,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     /* min-height: 100vh; */
     height: 500px;
+=======
+    min-height: 100vh;
+>>>>>>> origin/Shahzeb
   }
   
   /* .welcome-content {
@@ -36,6 +44,7 @@
   }
   
   
+<<<<<<< HEAD
   .gradient-buttonn {
     background: linear-gradient(70deg, #275fcd, #003399); /* Dodger blue gradient */
     color: white;
@@ -44,12 +53,21 @@
     width: 250px;
     padding: 12px 24px;
     font-size: 12px;
+=======
+.gradient-button {
+    background: linear-gradient(70deg, #333, #000);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+>>>>>>> origin/Shahzeb
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
     transition: transform 0.3s ease;
     outline: none;
     text-transform: uppercase;
+<<<<<<< HEAD
     box-shadow: 0 4px 8px rgba(30, 144, 255, 0.9); /* Dodger blue shadow */
 }
 
@@ -67,3 +85,19 @@
 .gradient-buttonn:active {
     transform: scale(0.95);
 }
+=======
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gradient-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .gradient-button:focus {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .gradient-button:active {
+    transform: scale(0.95);
+  }
+>>>>>>> origin/Shahzeb

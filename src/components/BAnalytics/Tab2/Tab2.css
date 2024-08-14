@@ -7,13 +7,18 @@
 /* Tabs wrapper */
 .tabs-wrapper {
     display: flex;
+<<<<<<< HEAD
     /* justify-content: center; */
+=======
+    justify-content: center;
+>>>>>>> origin/Shahzeb
     margin-bottom: 16px;
 }
 
 /* Tab content wrapper */
 .tab-content-wrapper {
     display: flex;
+<<<<<<< HEAD
     align-items: center; /* Center items vertically */
     gap: 20px; /* Space between image and text */
     border-radius: 8px; /* Rounded corners for content wrapper */
@@ -21,6 +26,17 @@
     padding: 20px; /* Padding inside content wrapper */
     margin: 20px 0; /* Margin around content wrapper */
 }
+=======
+    align-items:center; /* Center items vertically */
+    gap: 20px; /* Space between image and text */
+    background-color: #ffffff; /* Background color for content wrapper */
+    border-radius: 8px; /* Rounded corners for content wrapper */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for content wrapper */
+    /*padding: 20px; /* Padding inside content wrapper */
+    margin: 20px 0; /* Margin around content wrapper */
+}
+
+>>>>>>> origin/Shahzeb
 /* Image styling */
 .tab-content-wrapper img {
     width: 600px; /* Set consistent width */
@@ -31,6 +47,7 @@
     /*box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Box shadow for image */
 }
 
+<<<<<<< HEAD
 
 
 
@@ -52,6 +69,24 @@
 
 .tab-label {
     font-size: 26px;
+=======
+/* Text content styling */
+.tab-content {
+    font-size: 26px;
+    color: #333;
+    padding: 16px;
+    padding-top: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px; /* Rounded corners for text content */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for text content */
+    max-width: 90%; /* Adjust based on your layout */
+    line-height: 1.5; /* Improved readability */
+}
+
+
+.tab-label {
+    font-size: 15px;
+>>>>>>> origin/Shahzeb
     font-weight: bold;
   }
 

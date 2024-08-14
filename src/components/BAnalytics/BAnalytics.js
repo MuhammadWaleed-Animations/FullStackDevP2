@@ -26,7 +26,11 @@ import Tab2 from "./Tab2/Tab2.js";
       label: "Data Analysis & Visualization",
       children:
         "Business objectives Analysis:Identify and prioritize your objectives and burning questions to focus our analysis. Visibility Wireframing Product Level Dashboards and visualizations Customer Level Dashboards and visualizations Recommendations Reports",
+<<<<<<< HEAD
       img: "img12.webp" 
+=======
+      img: "img12.jpg" 
+>>>>>>> origin/Shahzeb
     },
   ];
 const BAnalytics = () => {
@@ -44,5 +48,9 @@ const BAnalytics = () => {
         </div>
     )
 }
+<<<<<<< HEAD
 //Waleed 22L6824
+=======
+
+>>>>>>> origin/Shahzeb
 export default BAnalytics

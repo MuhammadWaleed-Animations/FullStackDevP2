@@ -16,9 +16,15 @@ const Tab2 = (props) => {
             {console.log(item.img)}
             <div className="tab-content-wrapper">
               <img src={`/images/${item.img}`} alt={"img for key: " + item.key} />
+<<<<<<< HEAD
               <div className="tab-content" style={{backgroundColor:"white", height:300}}>
                 <br/><br/><br/>
                 <p style={{fontSize:20, textAlign:"center", color:"black"}}>{item.children}</p>
+=======
+              <div className="tab-content">
+                <br/><br/><br/>
+                <p>{item.children}</p>
+>>>>>>> origin/Shahzeb
                 <br/><br/><br/>
               </div>
             </div>

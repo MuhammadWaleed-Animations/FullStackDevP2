@@ -13,9 +13,15 @@ const Welcome = () => {
           We support leaders to EVOLVE their organizations using our proven business analyzinn services — 
           helping you achieve a competitive advantage with actionable insights.
         </p>
+<<<<<<< HEAD
         <button className="gradient-buttonn">
           Request Free Consultation
         </button>
+=======
+        <Button type="primary" className="gradient-button">
+          Request A Free Consultation Today
+        </Button>
+>>>>>>> origin/Shahzeb
       </div>
     </div>
   );
