@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/Shahzeb
 import React, { useState } from 'react';
 import { Tabs } from 'antd';
 import './Tab.css'; // Import your custom CSS file
@@ -23,20 +19,19 @@ const Tab = (props) => {
 
       <Tabs defaultActiveKey="0" onChange={onChange} centered>
         {props.arr.map((item, index) => (
-<<<<<<< HEAD
+
           <TabPane tab={<span style={{ fontSize: 25, fontWeight: "bold" }}>{item.label}</span>} key={index}>
             <div className="tab-content-wrapper" style={{ height: 450, backgroundColor: "white" , boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)" }}>
               <img src={`/images/${item.img}`} alt={"img for key: " + item.key} />
               <div className="tab-content" style={{ backgroundColor: "white", height: 400, textAlign: "unset" ,boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)"}}>
                 <span>{item.children}</span>
-=======
+
           <TabPane tab={item.label} key={index}>
             {console.log(item.img)}
             <div className="tab-content-wrapper">
               <img src={`/images/${item.img}`} alt={"img for key: " + item.key} />
               <div className="tab-content">
-                {item.children}
->>>>>>> origin/Shahzeb
+
                 <div className="button-container">
                   <a href={currLink}>
                     <button className="gradient-button">Show More Info</button>
@@ -52,8 +47,7 @@ const Tab = (props) => {
 };
 
 export default Tab;
-<<<<<<< HEAD
-=======
+
 
 
 //////////////////////////////////////////////////////////////////////
@@ -164,4 +158,4 @@ export default Tab;
 // }
 
 // export default Tabs
->>>>>>> origin/Shahzeb
+

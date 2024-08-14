@@ -5,26 +5,17 @@
     margin-top: 3%;
 }
 
-<<<<<<< HEAD
+
 .tab-container h1 {
-=======
-.tab-container h1{
->>>>>>> origin/Shahzeb
+
     font-size: 50px;
     font-weight: 600;
 }
 
-<<<<<<< HEAD
 .tab-container p {
     font-size: 20px;
     font-weight: 600;
     color: #333; /* Fixed color */
-=======
-.tab-container p{
-    font-size: 20px;
-    font-weight: 600;
-    color: gray;
->>>>>>> origin/Shahzeb
     margin-left: 2%;
     margin-top: 1%;
 }
@@ -49,10 +40,6 @@
     margin: 20px auto !important; /* Margin around content wrapper */
     text-align: left; /* Align text left */
     width: 80%;
-<<<<<<< HEAD
-=======
-   
->>>>>>> origin/Shahzeb
 }
 
 /* Image styling */
@@ -61,13 +48,10 @@
     height: 200px; /* Set consistent height */
     object-fit: cover; /* Ensure image covers area without distortion */
     flex-shrink: 0; /* Prevent image from shrinking */
-<<<<<<< HEAD
+
     /*border-radius: 8px; /* Rounded corners for image */
    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for image */
-=======
-    border-radius: 8px; /* Rounded corners for image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for image */
->>>>>>> origin/Shahzeb
+
 }
 
 /* Text content styling */
@@ -79,26 +63,21 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for text content */
     max-width: 100%; /* Adjust based on your layout */
     line-height: 1.5; /* Improved readability */
-<<<<<<< HEAD
     font-size: 18px !important; /* Slightly smaller font size for professional look */
     font-family: Arial, sans-serif; /* Professional font */
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Ensure the button stays at the bottom */
     height: 100%; /* Make the text content take full height */
-=======
     font-size: 22px !important;
->>>>>>> origin/Shahzeb
+
 }
 
 /* Button container */
 .button-container {
-<<<<<<< HEAD
-=======
     display: flex;
     justify-content: center; /* Center the button */
     padding: 16px;
->>>>>>> origin/Shahzeb
     margin-top: 20px; /* Space above the button */
 }
 
@@ -116,10 +95,8 @@
     outline: none; /* Remove default focus outline */
     text-transform: uppercase; /* Uppercase text */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for button */
-<<<<<<< HEAD
     width: 100%; /* Ensure button width matches the content */
-=======
->>>>>>> origin/Shahzeb
+
 }
 
 .gradient-button:hover {
