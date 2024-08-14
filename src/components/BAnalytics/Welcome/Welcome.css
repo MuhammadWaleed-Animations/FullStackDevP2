@@ -1,0 +1,69 @@
+/* WelcomeComponent.css */
+.welcome-container {
+    /* background-image: url('/public/images/welcome.avif'); */
+    background-color: #003399;/*dodgerblue; */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    height: 500px;
+  }
+  
+  /* .welcome-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+  }
+   */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  
+  
+  .gradient-buttonn {
+    background: linear-gradient(70deg, #275fcd, #003399); /* Dodger blue gradient */
+    color: white;
+    border: none;
+    height: 40px;
+    width: 250px;
+    padding: 12px 24px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    outline: none;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(30, 144, 255, 0.9); /* Dodger blue shadow */
+}
+
+.gradient-buttonn:hover {
+    /* transform: scale(1.05); */
+    background: linear-gradient(70deg, #ffffff, #ffffff); /* Dodger blue gradient */
+    background-color: white;
+    color: #003399;
+}
+
+.gradient-buttonn:focus {
+    box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.5); /* Dodger blue focus outline */
+}
+
+.gradient-buttonn:active {
+    transform: scale(0.95);
+}
