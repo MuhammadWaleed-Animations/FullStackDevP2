@@ -8,8 +8,8 @@ const AutomationIntegration = () => {
     <div style={{ background: '#f5f5f5', padding: '30px 0px', textAlign: 'center', color: '#000' }}>
       <Row gutter={[16, 16]} justify="center">
         <Col xs={24} md={12}>
-          <Title level={1} style={{ color: '#003399', marginTop: '10px' }}>Service Description</Title>
-          <Text style={{ display: 'block', marginBottom: '20px', maxWidth: '600px', margin: '20px auto', color: '#000',fontSize: '20px' }}>
+          <Title level={1} style={{ color: '#003399', marginTop: '10px',fontFamily: 'Times New Roman, serif' }}>Service Description</Title>
+          <Text style={{ display: 'block', marginBottom: '20px', maxWidth: '600px', margin: '20px auto', color: '#000',fontSize: '20px',fontFamily: 'Times New Roman, serif' }}>
           Analyzinn Solutions offers end-to-end Automation and Integration services, leveraging APIs and standard applications to drive digital transformation and reduce manual efforts, creating cost-efficient systems.
           </Text>
         </Col>
